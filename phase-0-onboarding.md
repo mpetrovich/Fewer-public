@@ -19,7 +19,7 @@ Ops law: public **Agent Bootstrap** (spine raw URL: https://raw.githubuserconten
 
 ## Welcome paste source
 
-Only SoT: [Fewer-public `about.md`](https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/about.md) (**Welcome** section — from `# Welcome` through the Privacy paragraph). Agents paste that on turn 1 per **Agent Bootstrap**. Do not keep a separate welcome extract. This file is the deeper Phase 0 method dump — not the first-reply fetch path.
+Paste the **Welcome** section from [Fewer-public `about.md`](https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/about.md) (from `# Welcome` through the Privacy paragraph) on turn 1 per **Agent Bootstrap**.
 
 ---
 
