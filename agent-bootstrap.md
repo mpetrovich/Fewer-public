@@ -27,20 +27,8 @@ After questions or okay / ready (**not** the welcome-paste turn):
 
 1. **Trigger the native Notion card** (do not ask whether they’re already connected). Connect the **Fewer** workspace Michael set up — not a personal workspace.
 2. If no card: brief **Settings → Apps / Plugins → Notion**, second try OK, re-trigger.
-3. **Find and open Status** (exact title, subject’s pack only) — see **How to open Status** below. When verify succeeds: one-line voice reminder (ChatGPT native or Wispr Free; flexible ~30 min pacing), then **start Phase 1 immediately** (`phase` → `1-profile`). No “ready for Phase 1?”
+3. **Open Status** — exact title **`Status`**, path **`Home` → `Profile Pack` → `Status`** (search Notion for `Status`, or open Profile Pack then its child Status). Verify: page has a **Phase** field (e.g. `` `0-onboarding` ``). Fallback: open **`Profile`**. If missing, ask for the pack link and ping the operator — do not invent Status. When verify succeeds: one-line voice reminder (ChatGPT native or Wispr Free; flexible ~30 min pacing), then **start Phase 1 immediately** (`phase` → `1-profile`). No “ready for Phase 1?”
 4. Notion is the structured DB / tracking ChatGPT lacks. If not connected, stay in orientation. Do not invent pack rows.
-
-### How to open Status (after Notion connects)
-
-Exact page title: **`Status`** (that one word — not “Status page”, not a phase name, not Pilot Users).
-
-Path in the subject’s pack: **`Home` → `Profile Pack` → `Status`**.
-
-1. With the Fewer workspace connected, search Notion for title **`Status`**.
-2. Open the hit whose path is **`… / Profile Pack / Status`** (or **`Home / Profile Pack / Status`**) in **this subject’s pack** — the pack / teamspace they were invited to (usually named for them).
-3. **Disambiguate:** many pilots share the same title `Status`. Never open **Pilot Template**, another person’s pack, or a shared Fewer/playbooks teamspace page. Prefer the Status that sits under **Profile Pack** next to **Profile** / **Voice** / **Search criteria**.
-4. **Verify success:** the page body has a **Phase** field (e.g. `` `0-onboarding` ``) and **Active conversation limit**. That is pack verify — then continue.
-5. **Fallbacks (in order):** open **`Profile Pack`** then its child **`Status`**; or open **`Profile`** (exact title) under the same Profile Pack. If still missing: ask the subject to paste the Status link from their pack sidebar / invite, then ping the operator. Do **not** invent a Status page.
 
 ## Phase handoffs
 

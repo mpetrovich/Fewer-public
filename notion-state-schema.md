@@ -40,12 +40,8 @@ Operator seeds the subject’s Profile Pack + Databases and invites the subject 
 ## How ChatGPT finds Status
 
 - **Exact title:** `Status`
-- **Path:** subject pack `Home` → `Profile Pack` → `Status`
-- **After Notion connect:** search the Fewer workspace for title `Status`; open the hit under **this subject’s** `Profile Pack` only.
-- **Title collisions:** every pilot pack (and Pilot Template) has a page titled `Status`. Never use Pilot Template or another subject’s Status.
-- **Verify:** Phase row present (default `` `0-onboarding` ``) + Active conversation limit.
-- **Fallback:** open `Profile Pack`, then child `Status`; or open `Profile`. If missing, ask for the page link and ping the operator — do not invent Status.
-- Full connect → verify sequence: **Agent Bootstrap** (`How to open Status`).
+- **Path:** `Home` → `Profile Pack` → `Status`
+- After Notion connect, open that page (search `Status`, or Profile Pack → Status). Verify Phase row present. Fallback: `Profile`. If missing, ask for the pack link and ping the operator — do not invent Status.
 
 ## Status page
 
