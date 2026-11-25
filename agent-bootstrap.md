@@ -89,7 +89,7 @@ After questions or okay / ready (**not** the welcome-paste turn):
   - Phase 6 — Conversations → `phase-6-conversations.md`
   - Notion state schema → `notion-state-schema.md`
   - Companies pack schema → `companies-schema.md`
-- Soft-close / Welcome still from **About** (`about.md`) per turn-1 rules above. `phase-0-welcome.md` is an operator extract only.
+- Soft-close / Welcome still from **About** (`about.md`) per turn-1 rules above. About **Welcome** is the only Welcome SoT — do not fetch a separate welcome file.
 - After every confirm: **write Notion** and confirm the page or row. Build **Profile** progressively (incl. Phase 2 NN softens); one-line “what changed.”
 - Never invent Notion rows, offline scoring, Project files, or **Also acceptable** seats (always ask; blank OK).
 - Missing playbook fetch → say so and ping the operator.
