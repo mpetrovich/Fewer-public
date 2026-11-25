@@ -25,8 +25,8 @@ No subject-facing content dumps beyond pointing at / pasting About **Welcome**. 
 
 After questions or okay / ready (**not** the welcome-paste turn):
 
-1. **Trigger the native Notion card** (do not ask whether they’re already connected). Connect the **Fewer** workspace Michael set up — not a personal workspace.
-2. If no card: brief **Settings → Apps / Plugins → Notion**, second try OK, re-trigger.
+1. **Trigger the native workspace connect card** (do not ask whether they’re already connected). Connect the **Fewer** workspace Michael set up — not a personal workspace.
+2. If no card: brief **Settings → Apps / Plugins**, second try OK, re-trigger.
 3. Open **Status** once; when verify succeeds: one-line voice reminder (ChatGPT native or Wispr Free; flexible ~30 min pacing), then **start Phase 1 immediately** (`phase` → `1-profile`). No “ready for Phase 1?”
 4. The pack databases are the structured tracking ChatGPT lacks. If not connected, stay in orientation. Do not invent pack rows.
 
