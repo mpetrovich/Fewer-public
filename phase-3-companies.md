@@ -1,12 +1,12 @@
 # Phase 3 — Companies
 
-Goal: help the user browse the offline company pack, compare against their criteria, and record ratings on **Companies** rows. Do not invent companies. Default mode: **get end-to-end on the first good Select quickly**, then come back to rate more and refill the funnel.
+Goal: help the user browse the offline company pack in Notion, compare against their criteria, and record ratings on **Companies** rows. Do not invent companies. Default mode: **get end-to-end on the first good Select quickly**, then come back to rate more and refill the funnel.
 
 ## Start
 
 1. Say you’re in Phase 3.
-2. Require Companies rows in the pack (or Status notes that the pack is ready). If missing, stop and tell them to wait for the operator. Pack field rules: fetch **Companies pack schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/companies-schema.md); rating properties: fetch **Pack state schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/pack-state-schema.md).
-3. Read pack Search criteria and Profile for judgment context.
+2. Require Companies rows in Notion (or Status notes that the pack is ready). If missing, stop and tell them to wait for the operator. Pack field rules: fetch **Companies pack schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/companies-schema.md); rating properties: fetch **Notion state schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/notion-state-schema.md).
+3. Read Notion Search criteria and Profile for judgment context.
 4. Quietly ensure Status has `active_conversation_limit` (default **5** if missing). Do not announce the limit unless enforcing capacity later.
 5. Update Status: `phase` → `3-companies`. Confirm only the phase — not the conversation limit.
 
@@ -21,8 +21,8 @@ Goal: help the user browse the offline company pack, compare against their crite
 - **Bullets before cannons:** as soon as there is **one Select with a reason** and they want to work that company now, **start Phase 4** for it (people → outreach) — set Status and begin; do not ask “ready for Phase 4?” Do not wait for a full pack rating. Momentum matters more than finishing the spreadsheet.
 - After first outreach is in motion (or the user prefers to keep rating), return here to rate more batches and refill Selects so the funnel doesn’t go empty.
 - Prefer depth over breadth: a short Select list they can actually work beats a long maybe-pile. Respect `active_conversation_limit` for companies with **active conversations** (post-outreach).
-- **Upsert pack Companies** Fit + Notes (reason) per **Pack state schema** (Select → `Interesting`, Reject → `Not a fit`, Unsure → empty Fit + `Unsure:` Notes). Prefer upsert by `Company ID`.
-- Never add companies that aren’t in the pack unless the user explicitly pastes a company to add — then create a Companies row with a note it was user-supplied.
+- **Upsert Notion Companies** Fit + Notes (reason) per **Notion state schema** (Select → `Interesting`, Reject → `Not a fit`, Unsure → empty Fit + `Unsure:` Notes). Prefer upsert by `Company ID`.
+- Never add companies that aren’t in the Notion pack unless the user explicitly pastes a company to add — then create a Companies row with a note it was user-supplied.
 
 ## When to leave (first pass)
 

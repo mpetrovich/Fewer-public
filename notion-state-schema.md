@@ -1,6 +1,6 @@
-# Pack state schema
+# Notion state schema
 
-Mutable search state lives in the subject’s **Fewer pack**. Phase playbooks and this schema are **public raw markdown** on [Fewer-public](https://github.com/mpetrovich/Fewer-public) (agents fetch; private git mirrors for edit workflow). After every confirm, upsert the pack.
+Mutable search state lives in the subject’s **Notion** pack. Phase playbooks and this schema are **public raw markdown** on [Fewer-public](https://github.com/mpetrovich/Fewer-public) (agents fetch; private git mirrors for edit workflow). After every confirm, upsert Notion.
 
 Canonical shape: per-subject **Profile Pack** + **Databases**; shared phase/schema playbooks via raw GitHub URLs (see Agent Bootstrap).
 
@@ -8,7 +8,7 @@ Canonical shape: per-subject **Profile Pack** + **Databases**; shared phase/sche
 
 Per-subject pack (`Fewer` / subject root / equivalent):
 
-| Pack artifact | Parent | Purpose |
+| Notion artifact | Parent | Purpose |
 |---|---|---|
 | **Status** page | **Profile Pack** | Current phase id, `active_conversation_limit` (default **5**), short operator notes |
 | **Profile** page | **Profile Pack** | Who they are + how they work (markdown sections below) |
@@ -24,17 +24,17 @@ Shared playbooks (raw fetch — `https://raw.githubusercontent.com/mpetrovich/Fe
 | File | Purpose |
 |---|---|
 | `phase-0-onboarding.md` … `phase-6-conversations.md` | Method playbooks |
-| `pack-state-schema.md` | This file — pack + DB property contract |
+| `notion-state-schema.md` | This file — pack + DB property contract |
 | `companies-schema.md` | Companies field rules |
 
-Operator seeds the subject’s Profile Pack + Databases and invites the subject as a workspace **Member** (not Guest) with Can edit on their pack. Subject connects the workspace app in ChatGPT to the Fewer workspace before Phase 1 saves.
+Operator seeds the subject’s Profile Pack + Databases and invites the subject as a Notion **Member** (not Guest) with Can edit on their pack. Subject connects the Notion app in ChatGPT to the Fewer workspace before Phase 1 saves.
 
 ## Hard rules for ChatGPT
 
-1. **Read** phase and state from the pack (Status + DBs). Do not invent rows.
-2. **Write** only via pack create/update (pages and DB rows). After the user confirms an artifact, upsert the pack and confirm the page/row URL or title changed.
+1. **Read** phase and state from Notion (Status + DBs). Do not invent rows.
+2. **Write** only via Notion create/update (pages and DB rows). After the user confirms an artifact, upsert Notion and confirm the page/row URL or title changed.
 3. Upsert only properties defined here (match the subject’s live pack DBs).
-4. Do not store full message bodies in pack properties. Short Notes / reasons only.
+4. Do not store full message bodies in Notion properties. Short Notes / reasons only.
 5. **Phase-move Status upserts:** update Phase (and Notes if needed). When confirming to the user, say only the new phase — never restate Active conversation limit unless the current phase playbook is enforcing capacity (Phases 3 / 5 / 6).
 
 ## Status page
@@ -83,7 +83,7 @@ Third-person paste-ready blurb for Phase 5 intro requests. Empty shell in `pack-
 
 Companies properties. In chat, the subject still rates **Select** / **Reject** / **Unsure**; write those onto **Fit** + **Notes**:
 
-| Chat rating | Pack `Fit` | `Notes` |
+| Chat rating | Notion `Fit` | `Notes` |
 |---|---|---|
 | Select | `Interesting` | Required reason (one or two lines) |
 | Reject | `Not a fit` | Required reason |

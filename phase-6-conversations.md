@@ -1,14 +1,14 @@
 # Phase 6 — Conversations
 
-Goal: stay on top of active outreach — due follow-ups first, then replies, call prep, and terminal outcomes. The **due board** is read from pack Conversations (**Next Step** / **Next Step Date**).
+Goal: stay on top of active outreach — due follow-ups first, then replies, call prep, and terminal outcomes. The **due board** is read from Notion Conversations (**Next Step** / **Next Step Date**).
 
-Message templates stay in **Phase 5 — Outreach** / **archived Outreach Chat Prompt (repo; optional harvest into Phase 5)**. Status, Next Step, Next Step Date, and Complete outcomes follow **Pack state schema**.
+Message templates stay in **Phase 5 — Outreach** / **archived Outreach Chat Prompt (repo; optional harvest into Phase 5)**. Status, Next Step, Next Step Date, and Complete outcomes follow **Notion state schema**.
 
 ## Start
 
 1. Say you’re in Phase 6.
 2. Require at least one Conversations row (usually past `To outreach`). If none, send them to Phase 5.
-3. Read pack Conversations, Profile (especially **conversation-only** Non-negotiables), and Voice.
+3. Read Notion Conversations, Profile (especially **conversation-only** Non-negotiables), and Voice.
 4. **Due board first** (below). Do not draft new first-touch outreach until overdue/due items are handled or the user explicitly defers them.
 5. Then ask which lane: due follow-ups, reply, call prep, log an outcome, or refill (Phase 3/4/5).
 6. Update Status: `phase` → `6-conversations`. Confirm only the phase on this upsert — mention the conversation limit only when enforcing capacity or offering refill.
@@ -79,7 +79,7 @@ When a meeting is scheduled (or they’re about to book):
 
 ## Outcomes (Complete)
 
-When a thread ends, set Status + required outcome in Notes (`outcome_kind` + `reason` per **Pack state schema**). Clear Next Step / Next Step Date. Free capacity under `active_conversation_limit` → offer Phase 3/4/5 refill.
+When a thread ends, set Status + required outcome in Notes (`outcome_kind` + `reason` per **Notion state schema**). Clear Next Step / Next Step Date. Free capacity under `active_conversation_limit` → offer Phase 3/4/5 refill.
 
 ## Capacity
 

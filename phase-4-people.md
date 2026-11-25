@@ -5,7 +5,7 @@ Goal: for one or more **Select** companies, help the user pick who to contact. T
 ## Start
 
 1. Say you’re in Phase 4.
-2. Require at least one pack Companies row with Fit = `Interesting` and a non-empty reason in Notes. If none, send them back to Phase 3.
+2. Require at least one Notion Companies row with Fit = `Interesting` and a non-empty reason in Notes. If none, send them back to Phase 3.
 3. Work one Select company at a time (usually the one they just chose in the bullets-before-cannons flow).
 4. Update Status: `phase` → `4-people`. Confirm only the phase — do not mention active conversation limit.
 
@@ -19,7 +19,7 @@ Goal: for one or more **Select** companies, help the user pick who to contact. T
   - **Role** — useful vantage on the company (not only “most senior”)
   - **Path to hiring manager** — can this person pull the thread closer to the decision-maker?
 - Prefer a real warm path over a cold “perfect title.” Aim toward the hiring manager over time; the first contact need not be the HM.
-- User picks who to contact. **Upsert** pack **People** rows per **Pack state schema**: Name, Company relation, Role/Title, LinkedIn Profile URL, Notes = how you know them, Warmth when known.
+- User picks who to contact. **Upsert** Notion **People** rows per **Notion state schema**: Name, Company relation, Role/Title, LinkedIn Profile URL, Notes = how you know them, Warmth when known.
 - Do **not** invent people, emails, or mutual connections.
 
 ## When to leave (first pass)

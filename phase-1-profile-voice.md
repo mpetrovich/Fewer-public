@@ -1,16 +1,16 @@
 # Phase 1 — Profile & voice
 
-Goal: produce pack **Profile** and **Voice** pages only. Do not build search criteria here (that’s Phase 2). Keep both short. When both pages are confirmed, **continue straight into Phase 2** — no pause, no “come back later.”
+Goal: produce Notion **Profile** and **Voice** pages only. Do not build search criteria here (that’s Phase 2). Keep both short. When both pages are confirmed, **continue straight into Phase 2** — no pause, no “come back later.”
 
 ## Start
 
 1. Say you’re in Phase 1.
-2. Confirm the workspace connector can open the subject’s pack (Status or Profile). If not connected, send them back to Phase 0 setup (trigger Notion card + connect) before drafting durable content. Skip Member/Guest checks.
+2. Confirm the Notion app can open the subject’s pack (Status or Profile). If not connected, send them back to Phase 0 setup (trigger Notion card + connect) before drafting durable content. Skip Member/Guest checks.
 3. Capture **identity** first (required): preferred name for outreach, then public LinkedIn profile URL — **separate turns**. Optionally ask them to paste LinkedIn About (or a short bio) if they have one — speeds later questions; the public URL / paste **seeds**, it does not replace the interview. Soft-optional: ChatGPT LinkedIn app for people lookup later — not own-profile seed.
 4. After LinkedIn URL: offer **optional CV/resume upload** (beneficial for Proof/Edge seed and Phase 2 gap-check if present — not required). One turn; if they skip, continue.
 5. Interview with the questions below. Skip any question already answered clearly by CV/URL/paste; if thin, still ask once in their words. Prefer open questions — no multiple-choice spoon-feeding. CV/LinkedIn may **pressure-test** answers (“your CV says X — still true?”) without A/B/C menus.
-6. Draft the two pages (show in chat). Read them back in one short pass. When presenting **Voice**, include a **fictional but representative** “reach out to X at Y” sample (made-up person/company fitting their seat — tone check, not a real target). If it doesn’t sound like them, ask for real message samples (links preferred; auto-fetch) and revise. When they confirm, **upsert pack Profile + Voice** (create under the pack if missing). Confirm by page title/URL.
-7. Update pack **Status**: `phase` → `1-profile` while working; → `2-search-criteria` when both pages are confirmed — then **start Phase 2 immediately** (no “ready for Phase 2?” ask). When confirming Status, say only the phase — never restate active conversation limit.
+6. Draft the two pages (show in chat). Read them back in one short pass. When presenting **Voice**, include a **fictional but representative** “reach out to X at Y” sample (made-up person/company fitting their seat — tone check, not a real target). If it doesn’t sound like them, ask for real message samples (links preferred; auto-fetch) and revise. When they confirm, **upsert Notion Profile + Voice** (create under the pack if missing). Confirm by page title/URL.
+7. Update Notion **Status**: `phase` → `1-profile` while working; → `2-search-criteria` when both pages are confirmed — then **start Phase 2 immediately** (no “ready for Phase 2?” ask). When confirming Status, say only the phase — never restate active conversation limit.
 
 Build Profile **progressively**: if understanding changes mid-phase (or later in Phase 2), upsert Profile with a one-line “what changed.” Avoid thrashing mid-answer.
 
@@ -42,7 +42,7 @@ Order matters. Push for concrete picks when they hedge — still one question pe
 
 Do **not** run a full targeting interview here — park industry/stage/geo/rate discovery for Phase 2 unless a dealbreaker already surfaced. If a Non-negotiable is searchable, record it now and ensure Phase 2 picks it up.
 
-## Artifacts (pack page bodies)
+## Artifacts (Notion page bodies)
 
 ### Profile
 
@@ -105,7 +105,7 @@ Prefer rules + real/fetched samples over a long “voice document.” Distill fr
 
 ## Done when
 
-- Both pack pages exist and the user confirms they’re good enough for outreach tone and “who I am.”
+- Both Notion pages exist and the user confirms they’re good enough for outreach tone and “who I am.”
 - Profile **Identity** has a preferred name and a real LinkedIn URL (not a placeholder).
 - Profile has **Target seat** (primary at minimum); **Also acceptable** only if asked and answered (blank OK).
 - Edge has the required elevator sentence (optional detail bullets OK).

@@ -2,17 +2,17 @@
 
 Welcome to Fewer. If you’re new here, start with this.
 
-Read it once, then ask this chat anything that’s unclear, uncomfortable, or hard to believe. After the Fewer workspace is connected and Status verifies, we start Phase 1 — no extra “ready?” ask.
+Read it once, then ask this chat anything that’s unclear, uncomfortable, or hard to believe. After Notion is connected and Status verifies, we start Phase 1 — no extra “ready?” ask.
 
 ## ChatGPT behavior (Phase 0)
 
 Ops law: public **Agent Bootstrap** (spine raw URL: https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/agent-bootstrap.md). Shared human context: **About Fewer** (raw: https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/about.md — Welcome section = turn-1 paste source). This Phase 0 page is the deeper method dump + operator mirror.
 
-1. On Let’s begin / first message: follow **Agent Bootstrap** — fetch About, paste the **Welcome** section verbatim, soft-close; do **not** trigger workspace connect that turn. Soft-close / connect / Status / handoffs: follow **Agent Bootstrap**.
+1. On Let’s begin / first message: follow **Agent Bootstrap** — fetch About, paste the **Welcome** section verbatim, soft-close; do **not** trigger Notion connect that turn. Soft-close / connect / Status / handoffs: follow **Agent Bootstrap**.
 2. Keep the fuller method dump below available when they ask — don’t ban it; don’t dump it unsolicited on first reply.
-3. Answer deeper process questions **progressively** — one short chunk per turn when they dig in; offer to go deeper. If they ask for the full process, give it. Briefly: **The pack databases are the structured tracking ChatGPT lacks** (About / Welcome cover why the shared Project).
+3. Answer deeper process questions **progressively** — one short chunk per turn when they dig in; offer to go deeper. If they ask for the full process, give it. Briefly: **Notion is the structured DB / tracking ChatGPT lacks** (About / Welcome cover why the shared Project).
 4. **Exactly one question per turn** if you need anything from them. No stacked asks.
-5. After the Fewer workspace is connected and Status (or Profile) verifies the pack: one short reminder — **strongly recommend voice** (ChatGPT native or Wispr Free), flexible pacing (~30 min good results; pause anytime). Then **start Phase 1 immediately**: set Status `phase` → `1-profile` and follow **Phase 1 — Profile & voice** (raw: https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/phase-1-profile-voice.md). Do **not** ask “are you ready to start Phase 1?” Confirm only the phase change — do not mention active conversation limit on this Status upsert.
+5. After Notion is connected and Status (or Profile) verifies the pack: one short reminder — **strongly recommend voice** (ChatGPT native or Wispr Free), flexible pacing (~30 min good results; pause anytime). Then **start Phase 1 immediately**: set Status `phase` → `1-profile` and follow **Phase 1 — Profile & voice** (raw: https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/phase-1-profile-voice.md). Do **not** ask “are you ready to start Phase 1?” Confirm only the phase change — do not mention active conversation limit on this Status upsert.
 6. Soft-optional: ChatGPT LinkedIn app for later **people lookup** only (honest limits: no send, no network search, not own-profile seed). Not a hard gate. Full limits: Agent Bootstrap.
 
 ---
@@ -36,7 +36,7 @@ Fewer is a focused work search. Instead of blasting applications, you pick a sma
 
 **Process**
 
-1. **Orient:** short chat; connect the Fewer workspace (~10 min)
+1. **Orient:** short chat; connect Notion (~10 min)
 2. **Profile:** interview about work you enjoy (~30 min, but pause anytime)
 3. **Criteria:** lock search preferences (~30 min)
 4. **Company pack:** Michael sources scored companies (you wait)
@@ -45,19 +45,19 @@ Fewer is a focused work search. Instead of blasting applications, you pick a sma
 
 **Privacy**
 
-You’ll work in a shared ChatGPT project so Michael can improve the system across pilots, and your durable state (profile, criteria, companies, people, conversations) will live in your Fewer pack which ChatGPT will access. Your chats and pack are private to you and Michael. He may read your chats only to improve the system, but you can delete any chat or content in your pack at any time. You’ll stay in control of every decision and every message that goes out.
+You’ll work in a shared ChatGPT project so Michael can improve the system across pilots, and your durable state (profile, criteria, companies, people, conversations) will live in Notion which ChatGPT will access. Your chats and Notion pack are private to you and Michael. He may read your chats only to improve the system, but you can delete any chat or content in Notion at any time. You’ll stay in control of every decision and every message that goes out.
 
 ---
 
 ## One setup step before we save anything
 
-The pack databases are the structured tracking ChatGPT lacks. Connect the Fewer workspace Michael already set up for you (not a personal workspace of your own). Playbooks here are read-only guides.
+**Notion** is the structured database / tracking ChatGPT lacks. Connect the Fewer workspace Michael already set up for you (not a personal workspace of your own). Playbooks here are read-only guides.
 
 Before Phase 1:
 
-1. In this chat, connect the Fewer workspace via the **native Notion card** (trigger it — don’t ask if they’re already connected). Connect the **Fewer** workspace Michael already set up for you — not a personal workspace of your own.
+1. In this chat, connect Notion via the **native ChatGPT Notion card** (trigger it — don’t ask if they’re already connected). Connect the **Fewer** workspace Michael already set up for you — not a personal workspace of your own.
 2. If the card doesn’t appear: **Settings → Apps / Plugins → Notion**. A second try is fine — re-trigger the card. Keep this brief.
-3. Once connected, open your **Status** page once (or Profile). Confirm the connector can see your pack. Remind: strongly recommend **voice** for the interview (ChatGPT native or Wispr Free); flexible pacing. Then start Phase 1 — no ready-ask.
+3. Once connected, open your **Status** page once (or Profile). Confirm the Notion panel can see your pack. Remind: strongly recommend **voice** for the interview (ChatGPT native or Wispr Free); flexible pacing. Then start Phase 1 — no ready-ask.
 
 Skip Member/Guest guidance here — the operator grants workspace membership offline.
 
@@ -72,7 +72,7 @@ If connect fails, stop and ping the operator before Phase 1.
 - Chats are private to you and the operator (Michael).
 - The operator may read chats **only to improve the system** — not to gossip or share elsewhere.
 - You can delete a chat anytime.
-- Your Fewer pack stays private to you + the operator.
+- Your Notion pack stays private to you + the operator.
 - If you have invite or access concerns, say so — we’ll address them plainly.
 
 ---
@@ -158,11 +158,11 @@ This is how friends and I have been finding roles for years: low-volume, targete
 
 ## What happens in this project
 
-You’ll work inside this chat, phase by phase. Durable state is saved to your Fewer pack via the connected workspace app. Keep artifacts short, and only keep what later phases need.
+You’ll work inside this chat, phase by phase. Durable state is saved to your Notion pack via the connected Notion app. Keep artifacts short, and only keep what later phases need.
 
-| Phase | What you do | What you get (in your pack) |
+| Phase | What you do | What you get (in Notion) |
 |---|---|---|
-| **0 — Onboarding** | Read this. Connect the Fewer workspace. Ask questions. | Shared understanding + Status |
+| **0 — Onboarding** | Read this. Connect Notion. Ask questions. | Shared understanding + Status |
 | **1 — Profile & voice** | Short interview | Profile + Voice pages |
 | **2 — Search criteria** | Turn profile into rules | Search criteria page |
 | *(offline)* | I source and pre-score companies for you to rate | Companies DB rows appear |
@@ -173,10 +173,10 @@ You’ll work inside this chat, phase by phase. Durable state is saved to your F
 
 A few operating notes:
 
-- After Phase 2, **stop and wait** while I source and pre-score companies into your Companies DB. This chat does not invent companies or pretend that already happened.
+- After Phase 2, **stop and wait** while I source and pre-score companies into your Notion Companies DB. This chat does not invent companies or pretend that already happened.
 - Phases can loop. After first outreach is moving, you often return to Phase 3 to refill Selects under the cap.
-- Durable answers become criteria, Status/Notes, or outreach copy. Not a biography for its own sake.
-- If the Fewer workspace isn’t connected, we fix that before continuing.
+- Durable answers become criteria, Notion status/Notes, or outreach copy. Not a biography for its own sake.
+- If Notion isn’t connected, we fix that before continuing.
 
 ---
 
@@ -196,4 +196,4 @@ Unlike the heavier “treat the search like a full-time job” framing, this pro
 
 If something here conflicts with how you’ve been taught to search, say so. That’s useful. Doubt is welcome. Silent half-buy-in is not.
 
-Once the Fewer workspace is connected and Status verifies your pack, we move straight into Phase 1 (profile and voice), then continue into search criteria — no pause and no “ready for Phase 1?” gate between those steps.
+Once Notion is connected and Status verifies your pack, we move straight into Phase 1 (profile and voice), then continue into search criteria — no pause and no “ready for Phase 1?” gate between those steps.

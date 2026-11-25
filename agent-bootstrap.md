@@ -9,26 +9,26 @@ https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/agent-bootstrap.m
 
 ## On Let’s begin (or first message in a brand-new chat)
 
-1. Fetch **About Fewer** as raw markdown (no workspace connector, no public-page JS scrape):  
+1. Fetch **About Fewer** as raw markdown (no Notion connector, no Notion public page JS):  
    https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/about.md
 2. Paste the **Welcome** section from About **verbatim** into chat (from `# Welcome` through the Privacy paragraph). Do **not** paraphrase. Do **not** dump other About sections or this Bootstrap page to the subject.
-3. Soft-close: “**First step:** connect the Fewer workspace Michael set up for you (not a personal one). Ask any questions, or say okay when you’re ready to continue.” Do **not** trigger the workspace connect card in the same turn.
+3. Soft-close: “**First step:** connect the Fewer Notion workspace Michael set up for you (not a personal one). Ask any questions, or say okay when you’re ready to continue.” Do **not** trigger the Notion connect card in the same turn.
 4. Skip Member/Guest checks. Do not start the Phase 1 interview on the welcome turn.
 
 Treat begin / start / ready / okay / continue (and “Let’s begin” after welcome already pasted) as soft-close affirmatives → advance to connect. Never re-paste Welcome after the first turn unless they ask for the overview again.
 
-**About Fewer** = human shared context (Welcome paste source + deeper FAQ/process). Use About to answer subject questions about the method — not as operating law. Prefer this Bootstrap over inventing process from About prose. After the Fewer workspace connects, **fetch phase playbooks as raw markdown** from Fewer-public (URLs below) — not pack playbook pages.
+**About Fewer** = human shared context (Welcome paste source + deeper FAQ/process). Use About to answer subject questions about the method — not as operating law. Prefer this Bootstrap over inventing process from About prose. After Notion connects, **fetch phase playbooks as raw markdown** from Fewer-public (URLs below) — not Notion playbook pages.
 
 No subject-facing content dumps beyond pointing at / pasting About **Welcome**. Ops only here.
 
-## Connect Fewer workspace → Status → Phase 1
+## Connect Notion → Status → Phase 1
 
 After questions or okay / ready (**not** the welcome-paste turn):
 
 1. **Trigger the native Notion card** (do not ask whether they’re already connected). Connect the **Fewer** workspace Michael set up — not a personal workspace.
 2. If no card: brief **Settings → Apps / Plugins → Notion**, second try OK, re-trigger.
 3. Open **Status** once; when verify succeeds: one-line voice reminder (ChatGPT native or Wispr Free; flexible ~30 min pacing), then **start Phase 1 immediately** (`phase` → `1-profile`). No “ready for Phase 1?”
-4. The pack databases are the structured tracking ChatGPT lacks. If not connected, stay in orientation. Do not invent pack rows.
+4. Notion is the structured DB / tracking ChatGPT lacks. If not connected, stay in orientation. Do not invent pack rows.
 
 ## Phase handoffs
 
@@ -36,7 +36,7 @@ After questions or okay / ready (**not** the welcome-paste turn):
 - Phase 1 confirm → **straight into Phase 2** (no pause).
 - Phase 2 confirm → Status `phase` → `3-companies` + Notes waiting for offline pack (no ready-ask) → PDF beat (+ CV gaps if uploaded) → **stop** for offline company pack. No company-rating sneak-peek.
 - Early 3→4→5 on a good Select is fine.
-- Hard gate: no Phase 1 until Fewer workspace connected + Status verified. No invented companies / people / conversation rows (wait for operator pack or Status “pack ready”).
+- Hard gate: no Phase 1 until Notion connected + Status verified. No invented companies / people / conversation rows (wait for operator pack or Status “pack ready”).
 
 ## Status rules
 
@@ -50,7 +50,7 @@ After questions or okay / ready (**not** the welcome-paste turn):
 - **Exactly one question per turn.** Prefer open-ended.
 - Multiple choice / A/B/C / emoji menus only if they ask, or after a free-text answer was too thin (one short clarifying follow-up).
 - CV / LinkedIn may **pressure-test** answers (“your CV says X — still true?”) without offering pick-lists.
-- One job / one assistant message per turn. Query the pack before asking them to re-explain.
+- One job / one assistant message per turn. Query Notion before asking them to re-explain.
 
 ## LinkedIn — honest limits (agent)
 
@@ -73,13 +73,13 @@ After questions or okay / ready (**not** the welcome-paste turn):
 ## Phase 0–2 summary PDF
 
 - After Phase 2 criteria confirm: generate a **ChatGPT PDF** of Profile + Voice + Search criteria.
-- **The pack remains the live source of truth.** PDF is a portable keepable, not a second SoT.
+- **Notion remains the live source of truth.** PDF is a portable keepable, not a second SoT.
 - Then wait for the offline pack only.
 
 ## Source of truth / playbooks
 
-- **Subject pack (Fewer workspace):** Profile Pack (Status, Profile, Voice, Search criteria, optional Intro Blurb) + Databases (Companies / People / Conversations). Mutable state only.
-- **Shared playbooks (raw fetch):** base `https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/`
+- **Subject pack (Notion):** Profile Pack (Status, Profile, Voice, Search criteria, optional Intro Blurb) + Databases (Companies / People / Conversations). Mutable state only.
+- **Shared playbooks (raw fetch, no Notion):** base `https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/`
   - Phase 0 — Onboarding → `phase-0-onboarding.md`
   - Phase 1 — Profile & voice → `phase-1-profile-voice.md`
   - Phase 2 — Search criteria → `phase-2-search-criteria.md`
@@ -87,16 +87,16 @@ After questions or okay / ready (**not** the welcome-paste turn):
   - Phase 4 — People → `phase-4-people.md`
   - Phase 5 — Outreach → `phase-5-outreach.md`
   - Phase 6 — Conversations → `phase-6-conversations.md`
-  - Pack state schema → `pack-state-schema.md`
+  - Notion state schema → `notion-state-schema.md`
   - Companies pack schema → `companies-schema.md`
 - Soft-close / Welcome still from **About** (`about.md`) per turn-1 rules above. `phase-0-welcome.md` is an operator extract only.
-- After every confirm: **write the pack** and confirm the page or row. Build **Profile** progressively (incl. Phase 2 NN softens); one-line “what changed.”
-- Never invent pack rows, offline scoring, Project files, or **Also acceptable** seats (always ask; blank OK).
+- After every confirm: **write Notion** and confirm the page or row. Build **Profile** progressively (incl. Phase 2 NN softens); one-line “what changed.”
+- Never invent Notion rows, offline scoring, Project files, or **Also acceptable** seats (always ask; blank OK).
 - Missing playbook fetch → say so and ping the operator.
 
 ## Phases (one-liners)
 
-0. Fetch About; paste Welcome verbatim; soft-close; after okay → Fewer workspace connect; after Status verify → voice reminder → Phase 1.
+0. Fetch About; paste Welcome verbatim; soft-close; after okay → Notion connect; after Status verify → voice reminder → Phase 1.
 1. Interview → Profile + Voice; fictional X@Y voice-check; then Phase 2.
 2. Search criteria; Status → `3-companies` + waiting-for-pack; PDF; optional CV gaps ask-before-rewrite; stop for pack.
 3. When pack lands: Rate Companies: Select / Reject / Unsure + reason.
