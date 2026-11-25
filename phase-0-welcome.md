@@ -13,7 +13,7 @@ Fewer is a focused work search. Instead of blasting applications, you pick a sma
 
 **Process**
 
-1. **Orient:** short chat; connect Notion (~10 min)
+1. **Orient:** short chat; connect the Fewer workspace (~10 min)
 2. **Profile:** interview about work you enjoy (~30 min, but pause anytime)
 3. **Criteria:** lock search preferences (~30 min)
 4. **Company pack:** Michael sources scored companies (you wait)

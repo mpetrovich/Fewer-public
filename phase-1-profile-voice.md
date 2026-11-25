@@ -5,7 +5,7 @@ Goal: produce pack **Profile** and **Voice** pages only. Do not build search cri
 ## Start
 
 1. Say you’re in Phase 1.
-2. Confirm the Notion connector can open the subject’s pack (Status or Profile). If not connected, send them back to Phase 0 setup (trigger Notion connection card + connect the Fewer workspace) before drafting durable content. Skip Member/Guest checks.
+2. Confirm the workspace connector can open the subject’s pack (Status or Profile). If not connected, send them back to Phase 0 setup (trigger workspace connect card + connect) before drafting durable content. Skip Member/Guest checks.
 3. Capture **identity** first (required): preferred name for outreach, then public LinkedIn profile URL — **separate turns**. Optionally ask them to paste LinkedIn About (or a short bio) if they have one — speeds later questions; the public URL / paste **seeds**, it does not replace the interview. Soft-optional: ChatGPT LinkedIn app for people lookup later — not own-profile seed.
 4. After LinkedIn URL: offer **optional CV/resume upload** (beneficial for Proof/Edge seed and Phase 2 gap-check if present — not required). One turn; if they skip, continue.
 5. Interview with the questions below. Skip any question already answered clearly by CV/URL/paste; if thin, still ask once in their words. Prefer open questions — no multiple-choice spoon-feeding. CV/LinkedIn may **pressure-test** answers (“your CV says X — still true?”) without A/B/C menus.
