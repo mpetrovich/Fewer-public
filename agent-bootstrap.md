@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/agent-bootstrap.m
 
 Treat begin / start / ready / okay / continue (and “Let’s begin” after welcome already pasted) as soft-close affirmatives → advance to connect. Never re-paste Welcome after the first turn unless they ask for the overview again.
 
-**About Fewer** = human shared context (Welcome paste source + deeper FAQ/process). Use About to answer subject questions about the method — not as operating law. Prefer this Bootstrap over inventing process from About prose. After Notion connects, open shared phase playbooks by exact title.
+**About Fewer** = human shared context (Welcome paste source + deeper FAQ/process). Use About to answer subject questions about the method — not as operating law. Prefer this Bootstrap over inventing process from About prose. After Notion connects, **fetch phase playbooks as raw markdown** from Fewer-public (URLs below) — not Notion playbook pages.
 
 No subject-facing content dumps beyond pointing at / pasting About **Welcome**. Ops only here.
 
@@ -78,11 +78,21 @@ After questions or okay / ready (**not** the welcome-paste turn):
 
 ## Source of truth / playbooks
 
-- **Subject pack:** Profile Pack (Status, Profile, Voice, Search criteria, optional Intro Blurb) + Databases (Companies / People / Conversations).
-- **Shared playbooks:** open by exact title in Fewer teamspace — `Phase 0 — Onboarding` · `Phase 1 — Profile & voice` · `Phase 2 — Search criteria` · `Phase 3 — Companies` · `Phase 4 — People` · `Phase 5 — Outreach` · `Phase 6 — Conversations`. Schemas: **Notion state schema**, **Companies pack schema**.
+- **Subject pack (Notion):** Profile Pack (Status, Profile, Voice, Search criteria, optional Intro Blurb) + Databases (Companies / People / Conversations). Mutable state only.
+- **Shared playbooks (raw fetch, no Notion):** base `https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/`
+  - Phase 0 — Onboarding → `phase-0-onboarding.md`
+  - Phase 1 — Profile & voice → `phase-1-profile-voice.md`
+  - Phase 2 — Search criteria → `phase-2-search-criteria.md`
+  - Phase 3 — Companies → `phase-3-companies.md`
+  - Phase 4 — People → `phase-4-people.md`
+  - Phase 5 — Outreach → `phase-5-outreach.md`
+  - Phase 6 — Conversations → `phase-6-conversations.md`
+  - Notion state schema → `notion-state-schema.md`
+  - Companies pack schema → `companies-schema.md`
+- Soft-close / Welcome still from **About** (`about.md`) per turn-1 rules above. `phase-0-welcome.md` is an operator extract only.
 - After every confirm: **write Notion** and confirm the page or row. Build **Profile** progressively (incl. Phase 2 NN softens); one-line “what changed.”
 - Never invent Notion rows, offline scoring, Project files, or **Also acceptable** seats (always ask; blank OK).
-- Missing playbook page → say so and ping the operator.
+- Missing playbook fetch → say so and ping the operator.
 
 ## Phases (one-liners)
 
