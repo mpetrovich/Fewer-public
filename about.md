@@ -13,7 +13,7 @@ Fewer is a focused work search. Instead of blasting applications, you pick a sma
 
 **Process**
 
-1. **Orient:** short chat; connect the Fewer workspace (~10 min)
+1. **Orient:** short chat; connect Notion (~10 min)
 2. **Profile:** interview about work you enjoy (~30 min, but pause anytime)
 3. **Criteria:** lock search preferences (~30 min)
 4. **Company pack:** Michael sources scored companies (you wait)
@@ -30,7 +30,7 @@ You’ll need a paid ChatGPT account because the free tier’s context window is
 
 Michael will send you three invites: one to your private Fewer pack, one to [Slack](https://fewer-app.slack.com), and one to a shared ChatGPT project.
 
-When the ChatGPT invite arrives, accept it, open the project, start a new chat, and say “Let’s begin.” That’s the only step you need to take to start. Connecting the Fewer workspace and joining Slack support the work you’ll do in that chat.
+When the ChatGPT invite arrives, accept it, open the project, start a new chat, and say “Let’s begin.” That’s the only step you need to take to start. Connecting Notion (the Fewer workspace Michael set up) and joining Slack support the work you’ll do in that chat.
 
 # The process
 
@@ -38,7 +38,7 @@ Roughly six phases plus one offline research step. You talk in ChatGPT; durable 
 
 | Phase | Description |
 |---|---|
-| Phase 0 — Orient | Connect the Fewer workspace, get the lay of the land, ask whatever you need about the approach.<br><br>**Your effort:** A short orientation chat. No homework. |
+| Phase 0 — Orient | Connect Notion (Fewer workspace Michael set up), get the lay of the land, ask whatever you need about the approach.<br><br>**Your effort:** A short orientation chat. No homework. |
 | Phase 1 — Understand you | An interview about the work you enjoy, your strengths, what energizes and drains you, and what you want next.<br><br>**Your effort:** An honest conversation. No tests or take-homes.<br>**Deliverable:** Profile and Voice pages in your pack |
 | Phase 2 — Define your search | Turn that profile into practical criteria: industries, company size and stage, roles, geography and hours, compensation, and other non-negotiables.<br><br>**Your effort:** Discuss preferences and decide trade-offs.<br>**Deliverable:** Search Criteria page in your pack |
 | Offline company research | Michael sources and pre-scores companies against your criteria, then loads them into your Companies database. The chat does not invent a company list.<br><br>**Your effort:** Wait for the company pack.<br>**Deliverable:** A shortlist worth reviewing |
@@ -65,7 +65,7 @@ Success looks like **hiring-manager conversations**, not applications sent or Li
 | What about my pack data? | Your pack (Profile, Voice, Search criteria, Companies, People, Conversations, Status) stays private to you and Michael. It isn’t a public board. |
 | I’m uneasy about invites / who else might see this. | Fair. Say so. We’ll walk through exactly who has access (ChatGPT Project + your Fewer pack) and tighten anything that feels loose. |
 | Why a Fewer pack? | It’s the source of truth for your work-search state: profile, criteria, companies, people, and conversations. Chat is the interview UI; the pack is what persists. |
-| Do I need to connect a workspace? | Yes. You’ll connect the Fewer workspace Michael already set up for you — not a personal workspace of your own — so the assistant can read and update your pack. |
+| Do I need to connect Notion? | Yes. Connect Notion in ChatGPT to the Fewer workspace Michael already set up for you — not a personal workspace of your own — so the assistant can read and update your pack. |
 | What will I see in my pack? | Your Status page (current phase), Profile, Voice, Search criteria, and later Companies / People / Conversations databases as those phases open. |
 | Do I apply to jobs through Fewer? | Not as the main path. Applications can still happen later once a relationship exists. The default work is company selection, warm intros, and conversations. |
 | Will the assistant send messages for me? | No. It drafts. You edit and send. |

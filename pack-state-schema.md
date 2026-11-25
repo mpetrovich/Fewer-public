@@ -27,7 +27,7 @@ Shared playbooks (raw fetch — `https://raw.githubusercontent.com/mpetrovich/Fe
 | `pack-state-schema.md` | This file — pack + DB property contract |
 | `companies-schema.md` | Companies field rules |
 
-Operator seeds the subject’s Profile Pack + Databases and invites the subject as a workspace **Member** (not Guest) with Can edit on their pack. Subject connects the workspace app in ChatGPT to the Fewer workspace before Phase 1 saves.
+Operator seeds the subject’s Profile Pack + Databases and invites the subject as a workspace **Member** (not Guest) with Can edit on their pack. Subject connects Notion in ChatGPT to the Fewer workspace before Phase 1 saves.
 
 ## Hard rules for ChatGPT
 
