@@ -57,7 +57,7 @@ Before Phase 1:
 
 1. In this chat, connect Notion via the **native ChatGPT Notion card** (trigger it — don’t ask if they’re already connected). Connect the **Fewer** workspace Michael already set up for you — not a personal workspace of your own.
 2. If the card doesn’t appear: **Settings → Apps / Plugins → Notion**. A second try is fine — re-trigger the card. Keep this brief.
-3. Once connected, open your **Status** page once (or Profile). Confirm the Notion panel can see your pack. Remind: strongly recommend **voice** for the interview (ChatGPT native or Wispr Free); flexible pacing. Then start Phase 1 — no ready-ask.
+3. Once connected, open pack **Status** by **exact title** `Status` at **`Home` → `Profile Pack` → `Status`** (Agent Bootstrap: **How to open Status**). If several `Status` hits appear, pick this subject’s pack only — not Pilot Template or another pilot. Fallback: **`Profile Pack`** then child **`Status`**, or **`Profile`**. Confirm the Notion panel can see the pack (Phase field present). Remind: strongly recommend **voice** for the interview (ChatGPT native or Wispr Free); flexible pacing. Then start Phase 1 — no ready-ask.
 
 Skip Member/Guest guidance here — the operator grants workspace membership offline.
 

@@ -37,6 +37,16 @@ Operator seeds the subject’s Profile Pack + Databases and invites the subject 
 4. Do not store full message bodies in Notion properties. Short Notes / reasons only.
 5. **Phase-move Status upserts:** update Phase (and Notes if needed). When confirming to the user, say only the new phase — never restate Active conversation limit unless the current phase playbook is enforcing capacity (Phases 3 / 5 / 6).
 
+## How ChatGPT finds Status
+
+- **Exact title:** `Status`
+- **Path:** subject pack `Home` → `Profile Pack` → `Status`
+- **After Notion connect:** search the Fewer workspace for title `Status`; open the hit under **this subject’s** `Profile Pack` only.
+- **Title collisions:** every pilot pack (and Pilot Template) has a page titled `Status`. Never use Pilot Template or another subject’s Status.
+- **Verify:** Phase row present (default `` `0-onboarding` ``) + Active conversation limit.
+- **Fallback:** open `Profile Pack`, then child `Status`; or open `Profile`. If missing, ask for the page link and ping the operator — do not invent Status.
+- Full connect → verify sequence: **Agent Bootstrap** (`How to open Status`).
+
 ## Status page
 
 Keep a short top section ChatGPT can update. Prefer a two-column table (matches the Pilot Template skeleton); bullets are fine if already present:

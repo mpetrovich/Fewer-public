@@ -66,7 +66,7 @@ Success looks like **hiring-manager conversations**, not applications sent or Li
 | I’m uneasy about invites / who else might see this. | Fair. Say so. We’ll walk through exactly who has access (ChatGPT Project + your Notion pack) and tighten anything that feels loose. |
 | Why Notion? | It’s the source of truth for your work-search pack: profile, criteria, companies, people, and conversations. Chat is the interview UI; Notion is what persists. |
 | Do I need a Notion account? | Yes. You’ll connect Notion to ChatGPT so the assistant can read and update your pack. Connect the Fewer workspace Michael already set up for you — not a personal workspace of your own. |
-| What will I see in Notion? | Your Status page (current phase), Profile, Voice, Search criteria, and later Companies / People / Conversations databases as those phases open. |
+| What will I see in Notion? | Under **Profile Pack**: a page titled **Status** (current phase), plus Profile, Voice, and Search criteria. Later: Companies / People / Conversations under Databases. |
 | Do I apply to jobs through Fewer? | Not as the main path. Applications can still happen later once a relationship exists. The default work is company selection, warm intros, and conversations. |
 | Will the assistant send messages for me? | No. It drafts. You edit and send. |
 | Who builds the company list? | Michael, offline, against your criteria. The chat won’t invent companies to fill gaps. |
