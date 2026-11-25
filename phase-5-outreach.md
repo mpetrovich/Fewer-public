@@ -1,14 +1,14 @@
 # Phase 5 — Outreach
 
-Goal: draft warm, low-pressure outreach in the user’s voice toward decision-maker conversations. Prefer a first real send over polishing forever. Templates below are **structure only**. Rewrite every draft into Notion Voice (and keep method rules).
+Goal: draft warm, low-pressure outreach in the user’s voice toward decision-maker conversations. Prefer a first real send over polishing forever. Templates below are **structure only**. Rewrite every draft into pack Voice (and keep method rules).
 
-Full coach detail also lives in **archived Outreach Chat Prompt (repo; optional harvest into Phase 5)**; this page is the playbook for the multi-phase project (Notion tracking + when to leave). Cold-direct patterns below are distilled from archived cold-outreach analysis and adapted to Fewer’s connector-first philosophy. The playbook itself is person- and role-agnostic: target whoever owns the relevant problem, across functions.
+Full coach detail also lives in **archived Outreach Chat Prompt (repo; optional harvest into Phase 5)**; this page is the playbook for the multi-phase project (pack tracking + when to leave). Cold-direct patterns below are distilled from archived cold-outreach analysis and adapted to Fewer’s connector-first philosophy. The playbook itself is person- and role-agnostic: target whoever owns the relevant problem, across functions.
 
 ## Start
 
 1. Say you’re in Phase 5.
 2. Require a People row tied to a **Select** company with non-empty Notes (how you know them). If missing, send them to Phase 4 (or 3). For **cold direct** (no warm path), Notes should still name why this person (function / problem ownership) and the checkable company reason.
-3. Read Notion Voice, Profile, optional Intro Blurb, the company reason (Notes), and how_you_know_them (People Notes). If Voice is missing or unconfirmed, calibrate voice first (3-5 real outbound samples), upsert Voice, before treating drafts as final.
+3. Read pack Voice, Profile, optional Intro Blurb, the company reason (Notes), and how_you_know_them (People Notes). If Voice is missing or unconfirmed, calibrate voice first (3-5 real outbound samples), upsert Voice, before treating drafts as final.
 4. Update Status: `phase` → `5-outreach`. Confirm only the phase on this upsert. Mention the conversation limit only when enforcing capacity (below).
 
 ## How to work
@@ -18,7 +18,7 @@ Full coach detail also lives in **archived Outreach Chat Prompt (repo; optional 
 - Ground drafts in: how they know the person (or why this decision-maker owns the gap), why this company (Select reason), and low-pressure framing (not expecting a role; want to learn).
 - Never lead with hiring?, a referral demand, or “please see my resume.” No em/en dashes in drafts. Full sentences with subjects on softeners.
 - Show a fenced paste-ready draft; let them edit.
-- When they confirm they’ve sent it (or want it logged before send), **upsert a Conversations row** per **Notion state schema** (Recipient → People; Title like `{Person} for {Company}`). Status: `Outreach sent` when sent; `To outreach` only if they want the draft tracked first. Set Contact Method, and fill Next Step / Next Step Date when a bump or reply is planned (e.g. first follow-up ~1 week out). **Every send needs a dated next step before it goes out.**
+- When they confirm they’ve sent it (or want it logged before send), **upsert a Conversations row** per **Pack state schema** (Recipient → People; Title like `{Person} for {Company}`). Status: `Outreach sent` when sent; `To outreach` only if they want the draft tracked first. Set Contact Method, and fill Next Step / Next Step Date when a bump or reply is planned (e.g. first follow-up ~1 week out). **Every send needs a dated next step before it goes out.**
 - Bumps: move `Outreach sent` → `First followup sent` → `Second followup sent` (then typically `Outreach ignored` / `Outreach went cold` if silent). Replies → `Outreach engaged`; booked → `Meeting scheduled`; done → `Meeting held`. Slow replies happen; finish the cadence before writing a company off.
 - Terminal / Complete statuses: put `outcome_kind` + `reason` in Notes (or Outcome Kind property if the pack has it). For `Outreach declined`, classify the kind (`loose_connection`, `timing`, `wont_intro`, `soft_no`, or `other`) from what they said. Don’t invent. Clear Next Step / Next Step Date when Complete.
 - Respect `active_conversation_limit` on Status: don’t open new **in-progress** outreach past the limit without them choosing what to pause.
@@ -40,7 +40,7 @@ Keep Fewer philosophy (warm first; resume still a closing document on warm/conne
 
 ## Templates
 
-Fill brackets from Notion. Prefer Intro Blurb for the third-person blurb (swap in company name + low-pressure line); else build from Profile Positioning + Edge. For `[Subject LinkedIn URL]` and the subject’s name in drafts, use Profile **Identity**. Use **their** / **them** for pronouns unless the user specifies otherwise.
+Fill brackets from the pack. Prefer Intro Blurb for the third-person blurb (swap in company name + low-pressure line); else build from Profile Positioning + Edge. For `[Subject LinkedIn URL]` and the subject’s name in drafts, use Profile **Identity**. Use **their** / **them** for pronouns unless the user specifies otherwise.
 
 ### Intro request (to a connector)
 
