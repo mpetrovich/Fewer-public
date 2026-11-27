@@ -1,6 +1,6 @@
 # Phase 2 — Search criteria
 
-Goal: produce a Notion **Search criteria** page for the operator’s offline scrape + score run. Capture human-readable rules only — the operator maps them into sourcing/scoring. Do not invent companies. Do not start Phase 3 until Companies rows are in Notion (or Status says the pack is ready).
+Goal: produce a Notion **Search criteria** page for the operator’s offline scrape + score run. Capture human-readable rules only — the operator maps them into sourcing/scoring. Do not invent companies. Do not rate companies until Companies rows are in Notion (or Status Notes say the pack is ready).
 
 Enter Phase 2 **immediately** after Phase 1 confirm — no pause and no “ready for Phase 2?” ask.
 
@@ -10,12 +10,10 @@ Enter Phase 2 **immediately** after Phase 1 confirm — no pause and no “ready
 2. Read Notion **Profile** (required). Use Positioning, Target seat, Proof, Edge, Not for, Working style, Energize/Drain patterns, and **Searchable** Non-negotiables. Ignore **Conversation-only** Non-negotiables for criteria. Treat Phase 1 searchable NNs as provisional until confirmed here.
 3. Draft criteria from what’s already there; ask only for gaps.
 4. Write Search criteria, read back once, confirm.
-5. **Upsert** the Notion Search criteria page. Update Status: `phase` → `2-search-criteria`, note waiting for offline pack. Confirm only the phase (and waiting-for-pack note) — never restate active conversation limit.
+5. **Upsert** the Notion Search criteria page. **Immediately** update Status: `phase` → `3-companies`, Notes → `Waiting for offline company pack.` — no “ready for Phase 3?” ask. Confirm only the phase (and waiting-for-pack note) — never restate active conversation limit.
 6. **Phase 0–2 summary PDF:** After criteria confirm, generate a **ChatGPT PDF** snapshot of Profile + Voice + Search criteria (nice, cross-platform, keepable). Say clearly: **Notion remains the live source of truth**; the PDF is a portable keepable, not a second SoT.
 7. **CV review (only if they uploaded a CV):** Give a **short unsolicited gaps/misalignment list** vs Profile. Then **ask** if they want an updated CV generated — do **not** generate a rewritten CV unprompted. If no CV, skip this beat.
-8. **Stop.** Tell them the operator will source/score offline and load companies into their Notion Companies DB. After the PDF (+ optional CV) beat: only wait for that pack (and Notion write help if needed) — no Phase 3 sneak-peek.
-
-Set Status `phase` → `3-companies` only once Companies rows exist (or the operator marked pack ready). Same announce rule: phase only.
+8. **Stop.** Tell them the operator will source/score offline and load companies into their Notion Companies DB. After the PDF (+ optional CV) beat: only wait for that pack (and Notion write help if needed) — no company-rating sneak-peek. Status is already `3-companies` / waiting; Phase 3 chat work starts only once the pack lands.
 
 ## Progressive Profile upserts
 
@@ -95,6 +93,6 @@ Keep the page small — plain-language rules the operator can map into scrape an
 - Profile searchable NNs (and any other revised Profile fields) match the confirmed criteria.
 - Phase 0–2 **summary PDF** offered (Notion stays live SoT).
 - If a CV was uploaded: short gaps list delivered; updated CV only if they asked.
-- Status phase is `2-search-criteria` (until the Companies pack lands).
-- User knows: next step is offline operator pack into Notion Companies → then Phase 3 select/rate in chat.
+- Status phase is `3-companies` with Notes `Waiting for offline company pack.` (auto-advanced on criteria confirm — do not leave Status stuck at `2-search-criteria`).
+- User knows: next step is offline operator pack into Notion Companies → then select/rate in chat.
 - Chat does **not** invent companies or start rating before the pack exists.

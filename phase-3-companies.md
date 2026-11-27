@@ -5,10 +5,10 @@ Goal: help the user browse the offline company pack in Notion, compare against t
 ## Start
 
 1. Say you’re in Phase 3.
-2. Require Companies rows in Notion (or Status notes that the pack is ready). If missing, stop and tell them to wait for the operator. Pack field rules: fetch **Companies pack schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/companies-schema.md); rating properties: fetch **Notion state schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/notion-state-schema.md).
+2. Require Companies rows in Notion (or Status Notes that the pack is ready — not still “waiting for offline company pack”). If Status is already `3-companies` with waiting-for-pack Notes and no Companies rows yet, stop and tell them to wait for the operator — do not invent companies. Pack field rules: fetch **Companies pack schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/companies-schema.md); rating properties: fetch **Notion state schema** (https://raw.githubusercontent.com/mpetrovich/Fewer-public/main/notion-state-schema.md).
 3. Read Notion Search criteria and Profile for judgment context.
 4. Quietly ensure Status has `active_conversation_limit` (default **5** if missing). Do not announce the limit unless enforcing capacity later.
-5. Update Status: `phase` → `3-companies`. Confirm only the phase — not the conversation limit.
+5. Ensure Status: `phase` → `3-companies`. If Notes still say waiting and Companies rows now exist (or the operator marked pack ready), clear the waiting line / note pack ready. Confirm only the phase — not the conversation limit. (Phase 2 already advanced Status to `3-companies` + waiting when criteria completed; this step only clears the waiting gate when the pack lands.)
 
 ## How to work
 

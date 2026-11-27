@@ -62,6 +62,8 @@ Phase values: `0-onboarding` | `1-profile` | `2-search-criteria` | `3-companies`
 
 Detect phase from Status (and whether Profile / Voice / Search criteria / Companies rows exist). Default for a brand-new pack: `0-onboarding`.
 
+**Phase 2 → 3 handoff:** When Search criteria is confirmed, set `phase` → `3-companies` and Notes → `Waiting for offline company pack.` immediately (no ready-ask). Stay stopped for rating until Companies rows exist or Notes say pack ready. Mid-Phase-2 work may still show `2-search-criteria`; do not leave Status stuck there after criteria confirm.
+
 `Active conversation limit` is a Status field the later phases enforce; it is not chat copy for every Status read or phase handoff.
 
 ## Profile / Voice / Search criteria pages
@@ -105,7 +107,7 @@ Companies properties. In chat, the subject still rates **Select** / **Reject** /
 | `Description`, `Website`, `LinkedIn`, `Location`, `Company Size`, `Stage`, `Industries`, `Review Rank` | various | Operator / pack fields. ChatGPT may read for judgment; do not invent. |
 | `Company Contacts` | relation → People | Optional; keep in sync when useful. |
 
-Operator loads unscored / proposed companies into this DB after Phase 2. Phase 3 refuses to invent companies: require existing Companies rows (or an operator “pack ready” note on Status).
+Operator loads unscored / proposed companies into this DB after Phase 2. Status is already `3-companies` with waiting-for-pack Notes from Phase 2 confirm; when the pack lands, clear waiting / note pack ready. Phase 3 refuses to invent companies: require existing Companies rows (or an operator “pack ready” note on Status — not still waiting).
 
 ## People database
 
